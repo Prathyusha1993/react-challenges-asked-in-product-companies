@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Counter from './components/counterApp/Counter'
 import FormDataUsage from './components/dynamicFormValidation/FormDataUsage'
 import ModalUsage from './components/modalExamples/ModalUsage'
+import AccordionUsage from './components/accordionExamples/AccordionUsage'
+import DropdownUsage from './components/dropdownMenuExamples/DropdownUsage'
 // import './App.css'
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Counter />
       <FormDataUsage />
       <ModalUsage />
+      <AccordionUsage />
+      <DropdownUsage />
     </>
   )
 }
