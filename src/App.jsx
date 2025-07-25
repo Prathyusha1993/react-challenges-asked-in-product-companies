@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import React from 'react'
 import Counter from './components/counterApp/Counter'
 import FormDataUsage from './components/dynamicFormValidation/FormDataUsage'
 import ModalUsage from './components/modalExamples/ModalUsage'
 import AccordionUsage from './components/accordionExamples/AccordionUsage'
 import DropdownUsage from './components/dropdownMenuExamples/DropdownUsage'
+import GetFetchUsers from './components/APIFetchAndSideEffects/GetFetchUsers'
+import PostFormDataAPI from './components/APIFetchAndSideEffects/PostFormDataAPI'
 // import './App.css'
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <ModalUsage />
       <AccordionUsage />
       <DropdownUsage />
+      <GetFetchUsers />
+      <PostFormDataAPI />
     </>
   )
 }
