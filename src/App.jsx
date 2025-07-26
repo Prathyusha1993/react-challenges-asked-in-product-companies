@@ -6,6 +6,7 @@ import AccordionUsage from './components/accordionExamples/AccordionUsage'
 import DropdownUsage from './components/dropdownMenuExamples/DropdownUsage'
 import GetFetchUsers from './components/APIFetchAndSideEffects/GetFetchUsers'
 import PostFormDataAPI from './components/APIFetchAndSideEffects/PostFormDataAPI'
+import FetchInfiniteScrollPagination from './components/APIFetchAndSideEffects/FetchInfiniteScrollPagination'
 // import './App.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <DropdownUsage />
       <GetFetchUsers />
       <PostFormDataAPI />
+      <FetchInfiniteScrollPagination />
     </>
   )
 }
