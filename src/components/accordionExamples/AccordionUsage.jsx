@@ -27,7 +27,7 @@ const faqItems = [
 function AccordionUsage() {
   return (
     <div>
-        <h3>Accodion Usage</h3>
+        <h3>Accordion Usage</h3>
         <AccordionEx items = {faqItems}/>
     </div>
   )

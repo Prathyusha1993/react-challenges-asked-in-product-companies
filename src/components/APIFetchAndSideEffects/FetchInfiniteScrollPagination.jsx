@@ -70,4 +70,4 @@ function FetchInfiniteScrollPagination() {
   )
 }
 
-export default FetchInfiniteScrollPagination
+export default FetchInfiniteScrollPagination;

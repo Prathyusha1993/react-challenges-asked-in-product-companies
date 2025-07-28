@@ -7,6 +7,8 @@ import DropdownUsage from './components/dropdownMenuExamples/DropdownUsage'
 import GetFetchUsers from './components/APIFetchAndSideEffects/GetFetchUsers'
 import PostFormDataAPI from './components/APIFetchAndSideEffects/PostFormDataAPI'
 import FetchInfiniteScrollPagination from './components/APIFetchAndSideEffects/FetchInfiniteScrollPagination'
+import ImageInfinteScroll from './components/APIFetchAndSideEffects/ImageInfinteScroll'
+import InfiniteScrollAPIFetchAxios from './components/APIFetchAndSideEffects/InfiniteScrollAPIFetchAxios'
 // import './App.css'
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
       <GetFetchUsers />
       <PostFormDataAPI />
       <FetchInfiniteScrollPagination />
+      {/* <ImageInfinteScroll />  uncomment to see how it works */}
+      {/* <InfiniteScrollAPIFetchAxios /> */}
     </>
   )
 }
