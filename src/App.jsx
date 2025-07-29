@@ -9,6 +9,7 @@ import PostFormDataAPI from './components/APIFetchAndSideEffects/PostFormDataAPI
 import FetchInfiniteScrollPagination from './components/APIFetchAndSideEffects/FetchInfiniteScrollPagination'
 import ImageInfinteScroll from './components/APIFetchAndSideEffects/ImageInfinteScroll'
 import InfiniteScrollAPIFetchAxios from './components/APIFetchAndSideEffects/InfiniteScrollAPIFetchAxios'
+import FormValidation from './components/dynamicFormValidation/FormValidation'
 // import './App.css'
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <FetchInfiniteScrollPagination />
       {/* <ImageInfinteScroll />  uncomment to see how it works */}
       {/* <InfiniteScrollAPIFetchAxios /> */}
+      <FormValidation />
     </>
   )
 }
