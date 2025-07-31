@@ -10,6 +10,7 @@ import FetchInfiniteScrollPagination from './components/APIFetchAndSideEffects/F
 import ImageInfinteScroll from './components/APIFetchAndSideEffects/ImageInfinteScroll'
 import InfiniteScrollAPIFetchAxios from './components/APIFetchAndSideEffects/InfiniteScrollAPIFetchAxios'
 import FormValidation from './components/dynamicFormValidation/FormValidation'
+import TabExample from './components/tabsComponentExample/TabExample'
 // import './App.css'
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       {/* <ImageInfinteScroll />  uncomment to see how it works */}
       {/* <InfiniteScrollAPIFetchAxios /> */}
       <FormValidation />
+      <TabExample />
     </>
   )
 }
