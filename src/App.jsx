@@ -11,6 +11,7 @@ import ImageInfinteScroll from './components/APIFetchAndSideEffects/ImageInfinte
 import InfiniteScrollAPIFetchAxios from './components/APIFetchAndSideEffects/InfiniteScrollAPIFetchAxios'
 import FormValidation from './components/dynamicFormValidation/FormValidation'
 import TabExample from './components/tabsComponentExample/TabExample'
+import NestedModalUsage from './components/reusableCustomModalComponent/NestedModalUsage'
 // import './App.css'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       {/* <InfiniteScrollAPIFetchAxios /> */}
       <FormValidation />
       <TabExample />
+      <NestedModalUsage />
     </>
   )
 }

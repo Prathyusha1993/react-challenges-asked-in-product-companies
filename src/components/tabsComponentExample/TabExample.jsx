@@ -1,47 +1,46 @@
 import React, {useState} from 'react'
 
 function TabExample() {
-    const[activeIndex, setActiveIndex] = useState(0);
+    const [activeTab, setActiveTab] = useState('home');
 
-    const handleClick = (index) => {
-        setActiveIndex(index);
+    const handleTabClick = (tab) => {
+        setActiveTab(tab);
     }
 
-    const rendeTabContent = () => {
-        switch(activeIndex){
-            case 'home': 
+    const renderTabContent = () => {
+        switch(activeTab){
+            case 'home':
                 return <Home />;
             case 'about':
                 return <About />;
             case 'career':
-                return  <Career />;
+                return <Career />;
             case 'contact':
-                return <Contact />;
+                return <Contact />
             default:
                 return null;
         }
     }
+
   return (
     <div>
-        <h3>Tab Example</h3>
-        <button style={{fontWeight: activeIndex === 'home' ? 'bold' : 'normal'}} onClick={() => handleClick('home')}>Home</button>
-        <button style={{fontWeight: activeIndex === 'about' ? 'bold' : 'normal'}} onClick={() => handleClick('about')}>About</button>
-        <button style={{fontWeight: activeIndex === 'career' ? 'bold' : 'normal'}} onClick={() => handleClick('career')}>Career</button>
-        <button style={{fontWeight: activeIndex === 'contact' ? 'bold' : 'normal'}} onClick={() => handleClick('contact')}>Contact</button>
+        <h3>Tabs Example</h3>
+        <button style={{fontWeight: activeTab === 'home' ? 'bold' : 'normal'}} onClick={() => handleTabClick('home')}>Home</button>
+        <button style={{fontWeight: activeTab === 'about' ? 'bold' : 'normal'}} onClick={() => handleTabClick('about')}>About</button>
+        <button style={{fontWeight: activeTab === 'career' ? 'bold' : 'normal'}} onClick={() => handleTabClick('career')}>Career</button>
+        <button style={{fontWeight: activeTab === 'contact' ? 'bold' : 'normal'}} onClick={() => handleTabClick('contact')}>Contact</button>
         <div>
-        {rendeTabContent()}
+        {renderTabContent()}
         </div>
     </div>
   )
 }
 
-export default TabExample;
-
 function Home(){
     return(
         <div>
-            <h3>Home</h3>
-            <p>This is Home Component.</p>
+            <h2>Home</h2>
+            <p>This is Home page</p>
         </div>
     )
 }
@@ -49,17 +48,8 @@ function Home(){
 function About(){
     return(
         <div>
-            <h3>About</h3>
-            <p>This is About Component.</p>
-        </div>
-    )
-}
-
-function Contact(){
-    return(
-        <div>
-            <h3>Contact</h3>
-            <p>This is Contact Component.</p>
+            <h2>About</h2>
+            <p>This is about page</p>
         </div>
     )
 }
@@ -67,8 +57,19 @@ function Contact(){
 function Career(){
     return(
         <div>
-            <h3>Career</h3>
-            <p>This is Career Component.</p>
+            <h2>Career</h2>
+            <p>This is career page</p>
         </div>
     )
 }
+
+function Contact(){
+    return(
+        <div>
+            <h2>Contact</h2>
+            <p>This is contact page</p>
+        </div>
+    )
+}
+
+export default TabExample;
