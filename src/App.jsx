@@ -12,6 +12,8 @@ import InfiniteScrollAPIFetchAxios from './components/APIFetchAndSideEffects/Inf
 import FormValidation from './components/dynamicFormValidation/FormValidation'
 import TabExample from './components/tabsComponentExample/TabExample'
 import NestedModalUsage from './components/reusableCustomModalComponent/NestedModalUsage'
+import TodoApp from './components/todosExamples/TodoApp'
+import AnotherWayofEditingTodo from './components/todosExamples/AnotherWayofEditingTodo'
 // import './App.css'
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
       <FormValidation />
       <TabExample />
       <NestedModalUsage />
+      <TodoApp />
+      <AnotherWayofEditingTodo />
     </>
   )
 }
