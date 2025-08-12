@@ -14,6 +14,8 @@ import TabExample from './components/tabsComponentExample/TabExample'
 import NestedModalUsage from './components/reusableCustomModalComponent/NestedModalUsage'
 import TodoApp from './components/todosExamples/TodoApp'
 import AnotherWayofEditingTodo from './components/todosExamples/AnotherWayofEditingTodo'
+import GetFetchandFilterList from './components/APIFetchAndSideEffects/GetFetchandFilterList'
+import ToggleShowHideComp from './components/toggleShowHide/ToggleShowHideComp'
 // import './App.css'
 
 function App() {
@@ -36,6 +38,8 @@ function App() {
       <NestedModalUsage />
       <TodoApp />
       <AnotherWayofEditingTodo />
+      <GetFetchandFilterList />
+      <ToggleShowHideComp />
     </>
   )
 }
